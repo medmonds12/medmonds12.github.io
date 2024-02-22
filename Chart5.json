@@ -1,0 +1,20 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text":"Welsh Exports to India (£000's)",
+    "subtitle": ["", "Source:HMRC Regional Trade in Goods Statistics"]},
+
+  "width": 400,
+  "height": 300,
+ 
+  "data": {"url": "https://raw.githubusercontent.com/medmonds12/medmonds12.github.io/main/Indiaexportdata2.csv"},
+ 
+  "mark": "line",
+ 
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title":null},
+    "y": {"field": "value", "type": "quantitative", "title":null},
+ 
+  }
+}
